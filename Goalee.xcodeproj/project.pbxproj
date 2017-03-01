@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3977CB4DF065A7943117104C /* Pods_Goalee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FD4DE52319388B341ECD47 /* Pods_Goalee.framework */; };
+		FA3F219E1E666140006658DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F219D1E666140006658DB /* AppDelegate.swift */; };
+		FA3F21A31E666140006658DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3F21A11E666140006658DB /* Main.storyboard */; };
+		FA3F21A51E666140006658DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3F21A41E666140006658DB /* Assets.xcassets */; };
+		FA3F21A81E666140006658DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3F21A61E666140006658DB /* LaunchScreen.storyboard */; };
+		FA3F21B01E6661A6006658DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA3F21AF1E6661A6006658DB /* GoogleService-Info.plist */; };
+		FAE62D9C1E6662EA004D0C97 /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE62D9B1E6662EA004D0C97 /* KeychainSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EBADB6BDAFCFCD67ACCE717 /* Pods-Goalee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goalee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Goalee/Pods-Goalee.release.xcconfig"; sourceTree = "<group>"; };
+		C7FD4DE52319388B341ECD47 /* Pods_Goalee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Goalee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86907064289FCF200378663 /* Pods-Goalee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goalee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Goalee/Pods-Goalee.debug.xcconfig"; sourceTree = "<group>"; };
+		FA3F219A1E666140006658DB /* Goalee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goalee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3F219D1E666140006658DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA3F21A21E666140006658DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA3F21A41E666140006658DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA3F21A71E666140006658DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA3F21A91E666140006658DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3F21AF1E6661A6006658DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAE62D9B1E6662EA004D0C97 /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = "Pods/../build/Release-iphoneos/KeychainSwift/KeychainSwift.framework"; sourceTree = "<group>"; };
+		FAE62D9D1E666343004D0C97 /* Goalee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Goalee.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA3F21971E666140006658DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE62D9C1E6662EA004D0C97 /* KeychainSwift.framework in Frameworks */,
+				3977CB4DF065A7943117104C /* Pods_Goalee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		039F0167F2D6071AE6F4AEE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE62D9B1E6662EA004D0C97 /* KeychainSwift.framework */,
+				C7FD4DE52319388B341ECD47 /* Pods_Goalee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94E2D1B58336BFDDA9CA0D64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E86907064289FCF200378663 /* Pods-Goalee.debug.xcconfig */,
+				3EBADB6BDAFCFCD67ACCE717 /* Pods-Goalee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA3F21911E666140006658DB = {
+			isa = PBXGroup;
+			children = (
+				FA3F219C1E666140006658DB /* Goalee */,
+				FA3F219B1E666140006658DB /* Products */,
+				94E2D1B58336BFDDA9CA0D64 /* Pods */,
+				039F0167F2D6071AE6F4AEE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA3F219B1E666140006658DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F219A1E666140006658DB /* Goalee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3F219C1E666140006658DB /* Goalee */ = {
+			isa = PBXGroup;
+			children = (
+				FAE62D9D1E666343004D0C97 /* Goalee.entitlements */,
+				FA3F219D1E666140006658DB /* AppDelegate.swift */,
+				FA3F21A11E666140006658DB /* Main.storyboard */,
+				FA3F21A41E666140006658DB /* Assets.xcassets */,
+				FA3F21A61E666140006658DB /* LaunchScreen.storyboard */,
+				FA3F21A91E666140006658DB /* Info.plist */,
+				FA3F21AF1E6661A6006658DB /* GoogleService-Info.plist */,
+			);
+			path = Goalee;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA3F21991E666140006658DB /* Goalee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3F21AC1E666140006658DB /* Build configuration list for PBXNativeTarget "Goalee" */;
+			buildPhases = (
+				8A604A77215B396FF0EF5866 /* [CP] Check Pods Manifest.lock */,
+				FA3F21961E666140006658DB /* Sources */,
+				FA3F21971E666140006658DB /* Frameworks */,
+				FA3F21981E666140006658DB /* Resources */,
+				064ECD48492877EAEDF4797D /* [CP] Embed Pods Frameworks */,
+				9B659DFEEF4C706B0314F4DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Goalee;
+			productName = Goalee;
+			productReference = FA3F219A1E666140006658DB /* Goalee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA3F21921E666140006658DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mohammad Al-Ahdal";
+				TargetAttributes = {
+					FA3F21991E666140006658DB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7VE8CQ2P35;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FA3F21951E666140006658DB /* Build configuration list for PBXProject "Goalee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA3F21911E666140006658DB;
+			productRefGroup = FA3F219B1E666140006658DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA3F21991E666140006658DB /* Goalee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA3F21981E666140006658DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3F21B01E6661A6006658DB /* GoogleService-Info.plist in Resources */,
+				FA3F21A81E666140006658DB /* LaunchScreen.storyboard in Resources */,
+				FA3F21A51E666140006658DB /* Assets.xcassets in Resources */,
+				FA3F21A31E666140006658DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		064ECD48492877EAEDF4797D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Goalee/Pods-Goalee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A604A77215B396FF0EF5866 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B659DFEEF4C706B0314F4DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Goalee/Pods-Goalee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA3F21961E666140006658DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3F219E1E666140006658DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA3F21A11E666140006658DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3F21A21E666140006658DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA3F21A61E666140006658DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3F21A71E666140006658DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA3F21AA1E666140006658DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA3F21AB1E666140006658DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA3F21AD1E666140006658DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86907064289FCF200378663 /* Pods-Goalee.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Goalee/Goalee.entitlements;
+				DEVELOPMENT_TEAM = 7VE8CQ2P35;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/KeychainSwift",
+				);
+				INFOPLIST_FILE = Goalee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.malahdal.Goalee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA3F21AE1E666140006658DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EBADB6BDAFCFCD67ACCE717 /* Pods-Goalee.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Goalee/Goalee.entitlements;
+				DEVELOPMENT_TEAM = 7VE8CQ2P35;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/KeychainSwift",
+				);
+				INFOPLIST_FILE = Goalee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.malahdal.Goalee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA3F21951E666140006658DB /* Build configuration list for PBXProject "Goalee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3F21AA1E666140006658DB /* Debug */,
+				FA3F21AB1E666140006658DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3F21AC1E666140006658DB /* Build configuration list for PBXNativeTarget "Goalee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3F21AD1E666140006658DB /* Debug */,
+				FA3F21AE1E666140006658DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA3F21921E666140006658DB /* Project object */;
+}
