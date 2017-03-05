@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3977CB4DF065A7943117104C /* Pods_Goalee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FD4DE52319388B341ECD47 /* Pods_Goalee.framework */; };
+		FA0798BF1E6BD8F100EA2024 /* LoginPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0798BE1E6BD8F100EA2024 /* LoginPages.swift */; };
 		FA3F219E1E666140006658DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F219D1E666140006658DB /* AppDelegate.swift */; };
 		FA3F21A31E666140006658DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3F21A11E666140006658DB /* Main.storyboard */; };
 		FA3F21A51E666140006658DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3F21A41E666140006658DB /* Assets.xcassets */; };
 		FA3F21A81E666140006658DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3F21A61E666140006658DB /* LaunchScreen.storyboard */; };
 		FA3F21B01E6661A6006658DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA3F21AF1E6661A6006658DB /* GoogleService-Info.plist */; };
+		FA749AD31E68D361006AF6D0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA749AD21E68D361006AF6D0 /* Extensions.swift */; };
 		FAE62D9C1E6662EA004D0C97 /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE62D9B1E6662EA004D0C97 /* KeychainSwift.framework */; };
+		FAE65EBF1E68992B00A74D31 /* StartupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE65EBE1E68992B00A74D31 /* StartupScreen.swift */; };
+		FAE65EC21E68AF2100A74D31 /* FadeSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE65EC11E68AF2100A74D31 /* FadeSegue.swift */; };
+		FAE65EC41E68CCFC00A74D31 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE65EC31E68CCFC00A74D31 /* LoginPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3EBADB6BDAFCFCD67ACCE717 /* Pods-Goalee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goalee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Goalee/Pods-Goalee.release.xcconfig"; sourceTree = "<group>"; };
 		C7FD4DE52319388B341ECD47 /* Pods_Goalee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Goalee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86907064289FCF200378663 /* Pods-Goalee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goalee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Goalee/Pods-Goalee.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0798BE1E6BD8F100EA2024 /* LoginPages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPages.swift; sourceTree = "<group>"; };
 		FA3F219A1E666140006658DB /* Goalee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goalee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3F219D1E666140006658DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA3F21A21E666140006658DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,8 +33,12 @@
 		FA3F21A71E666140006658DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA3F21A91E666140006658DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA3F21AF1E6661A6006658DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA749AD21E68D361006AF6D0 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		FAE62D9B1E6662EA004D0C97 /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = "Pods/../build/Release-iphoneos/KeychainSwift/KeychainSwift.framework"; sourceTree = "<group>"; };
 		FAE62D9D1E666343004D0C97 /* Goalee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Goalee.entitlements; sourceTree = "<group>"; };
+		FAE65EBE1E68992B00A74D31 /* StartupScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartupScreen.swift; sourceTree = "<group>"; };
+		FAE65EC11E68AF2100A74D31 /* FadeSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeSegue.swift; sourceTree = "<group>"; };
+		FAE65EC31E68CCFC00A74D31 /* LoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,7 @@
 		FA3F219C1E666140006658DB /* Goalee */ = {
 			isa = PBXGroup;
 			children = (
+				FAE65EC01E68AA5800A74D31 /* Custom UI Files */,
 				FAE62D9D1E666343004D0C97 /* Goalee.entitlements */,
 				FA3F219D1E666140006658DB /* AppDelegate.swift */,
 				FA3F21A11E666140006658DB /* Main.storyboard */,
@@ -90,8 +101,20 @@
 				FA3F21A61E666140006658DB /* LaunchScreen.storyboard */,
 				FA3F21A91E666140006658DB /* Info.plist */,
 				FA3F21AF1E6661A6006658DB /* GoogleService-Info.plist */,
+				FAE65EBE1E68992B00A74D31 /* StartupScreen.swift */,
+				FAE65EC31E68CCFC00A74D31 /* LoginPage.swift */,
+				FA749AD21E68D361006AF6D0 /* Extensions.swift */,
 			);
 			path = Goalee;
+			sourceTree = "<group>";
+		};
+		FAE65EC01E68AA5800A74D31 /* Custom UI Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE65EC11E68AF2100A74D31 /* FadeSegue.swift */,
+				FA0798BE1E6BD8F100EA2024 /* LoginPages.swift */,
+			);
+			name = "Custom UI Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +247,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA749AD31E68D361006AF6D0 /* Extensions.swift in Sources */,
+				FAE65EC41E68CCFC00A74D31 /* LoginPage.swift in Sources */,
+				FA0798BF1E6BD8F100EA2024 /* LoginPages.swift in Sources */,
 				FA3F219E1E666140006658DB /* AppDelegate.swift in Sources */,
+				FAE65EC21E68AF2100A74D31 /* FadeSegue.swift in Sources */,
+				FAE65EBF1E68992B00A74D31 /* StartupScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +382,7 @@
 					"$(PROJECT_DIR)/build/Release-iphoneos/KeychainSwift",
 				);
 				INFOPLIST_FILE = Goalee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.malahdal.Goalee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,6 +403,7 @@
 					"$(PROJECT_DIR)/build/Release-iphoneos/KeychainSwift",
 				);
 				INFOPLIST_FILE = Goalee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.malahdal.Goalee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
